@@ -31,7 +31,7 @@ const Footer = () => {
           </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black mb-4 font-medium text-lg">Product</p>
+          <p className="text-black mb-4 font-medium text-lg">Protect</p>
           <ul className="text-black ">
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
               Download PWA{" "}
@@ -51,7 +51,7 @@ const Footer = () => {
           <p className="text-black mb-4 font-medium text-lg">Engage</p>
           <ul className="text-black">
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              ResQ ?{" "}
+              ResQ-Mate{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
               FAQ{" "}

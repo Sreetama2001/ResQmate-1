@@ -23,14 +23,13 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black leading-relaxed"
             >
-              Our Motto
+            Guide to ResQ-MAte
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Let's choose the package that is best for you and explore it
-              happily and cheerfully.
+            Let's us give a road-map to our services
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -54,7 +53,7 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black font-medium capitalize my-2 sm:my-7">
-                  Building the Ecosystem
+                Call for help
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black flex-grow">
                   <li className="relative check custom-list my-2">
@@ -87,7 +86,7 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black font-medium capitalize my-2 sm:my-7">
-                  AI Revolution
+                Be always Disaster-Ready
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black flex-grow">
                   <li className="relative check custom-list my-2">
@@ -122,7 +121,7 @@ const Pricing = () => {
                   />
                 </div>
                 <p className="text-lg text-black font-medium capitalize my-2 sm:my-7">
-                  Powerful way of Handling
+                Stay updated
                 </p>
                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black flex-grow">
                   <li className="relative check custom-list my-2">

@@ -36,16 +36,15 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black leading-normal">
-              Want anything to be easy with <strong>ResQ</strong>.
+            Disaster Management with <strong>ResQ-Mate</strong>.
             </h1>
             <p className="text-black mt-4 mb-6">
-              Provide a network for all your needs with ease and fun using
-              LaslesVPN discover interesting features from us.
+            Disasters don't wait  but with <strong>ResQ-Mate</strong>, you'll always be one step ahead.
             </p>
             <div className="flex gap-x-3">
               <ButtonPrimary>Get Started</ButtonPrimary>
               <div onClick={() => setVisible(true)}>
-                <ButtonPrimary>Emergency Help</ButtonPrimary>
+                <ButtonPrimary>Urgent Help</ButtonPrimary>
               </div>
             </div>
           </div>

@@ -81,7 +81,7 @@ const Header = () => {
               }
             >
               <span className="hover:text-red-600 cursor-pointer text-base">
-                Help
+                HelpForm
               </span>
             </Link>
           </ul>
@@ -158,7 +158,7 @@ const Header = () => {
               }
             >
               <span className="hover:text-red-600 cursor-pointer text-sm">
-                Help
+                HelpForm
               </span>
             </Link>
           </ul>

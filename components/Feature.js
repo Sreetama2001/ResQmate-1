@@ -5,10 +5,12 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Powerfull online protection.",
-  "Internet without borders.",
-  "Supercharged VPN",
-  "No specific time limits.",
+  "Catering to emergency needs",
+  "Educating People on Disaster awarness",
+  "Live chat and location sharing",
+  "Featuring important SOS tweets and updates",
+  "Sending important alerts through messages",
+  "Updating Disaster stats",
 ];
 
 const Feature = () => {
@@ -23,8 +25,8 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Illustration2.png"
-              alt="VPN Illustrasi"
+              src="/assets/disasters.png" 
+              alt="Disasters"
               layout="responsive"
               quality={100}
               height={414}
@@ -38,11 +40,10 @@ const Feature = () => {
             variants={scrollAnimation}
           >
             <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black">
-              We Provide Many Features You Can Use
+              Relevant features of ResQ-Mate
             </h3>
             <p className="my-2 text-black">
-              You can explore the features that we provide with fun and have
-              their own functions each feature.
+            Our sole aim is to ensure that everyone is safe and sound in case of any calamity.
             </p>
             <ul className="text-black self-start list-inside ml-8">
               {features.map((feature, index) => (
