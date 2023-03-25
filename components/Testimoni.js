@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 // import react slick
 import Slider from "react-slick";
 import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
+import TweetEmbed from "react-tweet-embed";
 
 const Testimoni = ({
   listTestimoni = [
@@ -56,8 +57,11 @@ const Testimoni = ({
         </a>
       );
     },
-    dotsClass: "slick-dots w-max absolute mt-20  ",
+    dotsClass: "slick-dots w-max absolute",
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
@@ -79,7 +83,24 @@ const Testimoni = ({
       },
     ],
   };
+  const [tweetdata, settweetdata] = useState(null);
   const [sliderRef, setSliderRef] = useState(null);
+  async function getTweets() {
+    const res = await axios.get(
+      "https://ap-south-1.aws.data.mongodb-api.com/app/hackit-tngat/endpoint/crisis_tweets"
+    );
+    // console.log(res.data);
+    settweetdata(res.data);
+    // res.data.map((item) => {
+    //   item.disaster_tweet_ids.map((itemm) => {
+    //     console.log(item._id, itemm);
+    //   });
+    // });
+  }
+
+  useEffect(() => {
+    getTweets();
+  }, []);
 
   return (
     <>
@@ -87,47 +108,26 @@ const Testimoni = ({
         {...settings}
         arrows={false}
         ref={setSliderRef}
-        className="flex items-stretch justify-items-stretch"
+        className="flex"
+        autoplay={true}
       >
-        {listTestimoni.map((listTestimonis, index) => (
+        {tweetdata?.map((item, index) => (
           <div className="px-3 flex items-stretch" key={index}>
-            <div className="border-2 border-gray-500 hover:border-red-500 transition-all rounded-lg p-8 flex flex-col">
+            <div className="border-2 border-gray-500 hover:border-red-500 transition-all rounded-lg p-5 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
-                <div className="flex order-2 xl:order-1">
-                  <Image
-                    src={listTestimonis.image}
-                    height={50}
-                    width={50}
-                    alt="Icon People"
-                  />
-                  <div className="flex flex-col ml-5 text-left">
-                    <p className="text-lg text-black capitalize">
-                      {listTestimonis.name}
-                    </p>
-                    <p className="text-sm text-black capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
-                  <span className="flex ml-4">
-                    <Stars className="h-4 w-4" />
-                  </span>
-                </div>
+                <TweetEmbed tweetId={item.disaster_tweet_ids[5]} />
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
             </div>
           </div>
         ))}
       </Slider>
       <div className="flex w-full items-center justify-end">
-        <div className="flex flex-none justify-between w-auto mt-14">
+        <div className="flex flex-none justify-between w-auto">
           <div
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-red-500 border hover:bg-red-500 hover:text-white transition-all text-red-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <ArrowBack className="h-6 w-6 " />
+            <ArrowBack className="h-6 w-6" />
           </div>
           <div
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-red-500 border hover:bg-red-500 hover:text-white transition-all text-red-500 cursor-pointer"

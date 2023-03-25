@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-gray-400">
-            ©{new Date().getFullYear()} - ResQ.org
+            ©{new Date().getFullYear()} - ResQ.vercel.app
           </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
@@ -37,7 +37,7 @@ const Footer = () => {
               Download PWA{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Broadcast room{" "}
+              Community Bulletin{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
               Previous Disasters{" "}
