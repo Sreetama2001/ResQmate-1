@@ -25,12 +25,12 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/disasters.png" 
+              src="/assets/storm-removebg-preview.png"
               alt="Disasters"
               layout="responsive"
               quality={100}
-              height={414}
-              width={508}
+              height={450}
+              width={550}
             />
           </motion.div>
         </ScrollAnimationWrapper>
