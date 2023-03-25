@@ -31,33 +31,27 @@ const Footer = () => {
           </p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black mb-4 font-medium text-lg">Protect</p>
+          <p className="text-black mb-4 font-medium text-lg">Join Us</p>
           <ul className="text-black ">
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Download PWA{" "}
+              Donate{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Community Bulletin{" "}
+              Volunteer{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Previous Disasters{" "}
-            </li>
-            <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Sign In{" "}
+              Learn{" "}
             </li>
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black mb-4 font-medium text-lg">Engage</p>
+          <p className="text-black mb-4 font-medium text-lg">Learn More</p>
           <ul className="text-black">
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              ResQ-Mate{" "}
+              About us{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
               FAQ{" "}
-            </li>
-            <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              About Us{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
               Privacy Policy{" "}
@@ -68,13 +62,13 @@ const Footer = () => {
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black mb-4 font-medium text-lg">Social Cause</p>
+          <p className="text-black mb-4 font-medium text-lg">Improve us</p>
           <ul className="text-black">
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Donation{" "}
+              Send Complaints{" "}
             </li>
             <li className="my-2 hover:text-red-500 cursor-pointer transition-all">
-              Become Partner{" "}
+              Send Queries{" "}
             </li>
           </ul>
         </div>
