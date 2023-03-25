@@ -12,10 +12,10 @@ const Footer = () => {
           <div className="flex justify-center items-center w-full">
             <Image src={LogoVPN} width={150} height={150} />
           </div>
-          <p className="mb-4">
-          ResQ-Mate 
-          </p>
-          <div className="flex w-full mt-2 mb-8 -mx-2">
+          <div className="w-full flex justify-center items-center">
+            <p className="mb-4 text-center font-bold">ResQ-Mate</p>
+          </div>
+          <div className="flex justify-center  w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
               <Facebook className="h-6 w-6" />
             </div>
@@ -26,9 +26,11 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-          <p className="text-gray-400">
-            ©{new Date().getFullYear()} - ResQ.vercel.app
-          </p>
+          <div className="flex justify-center w-full">
+            <p className="text-gray-400">
+              ©{new Date().getFullYear()} - ResQ.vercel.app
+            </p>
+          </div>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black mb-4 font-medium text-lg">Join Us</p>
