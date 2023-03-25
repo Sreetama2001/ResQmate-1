@@ -13,8 +13,7 @@ const Footer = () => {
             <Image src={LogoVPN} width={150} height={150} />
           </div>
           <p className="mb-4">
-            Disasters don't wait - but with ResQ, you'll always be
-            one step ahead.
+          ResQ-Mate 
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white rounded-full items-center justify-center flex p-2 shadow-md">
