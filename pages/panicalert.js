@@ -3,6 +3,8 @@ import axios from "axios";
 import Layout from "../components/Layout/Layout";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/bootstrap.css";
+import { db } from "../firebase/firebase";
+import { collection, doc, getDocs } from "firebase/firestore";
 
 const panicalert = () => {
   const [formdata, setformdata] = useState({
@@ -19,12 +21,27 @@ const panicalert = () => {
       //     let n = `+${formdata.number}`;
       //     setformdata({ ...formdata, number: n });
       //   }
-      const res = await axios.post("https://twilio-backend.onrender.com/", {
+      const res = await axios.post("http://localhost:5000", {
         num: formdata.number,
         text: formdata.text,
       });
       setformdata({ number: "", text: "" });
       console.log(res.status);
+    } catch (error) {
+      console.log(error, error.message);
+    }
+  }
+  async function checksendData() {
+    try {
+      const querySnapshot = await getDocs(collection(db, "messageNumbers"));
+      querySnapshot.forEach(async (doc) => {
+        const res = await axios.post("http://localhost:5000", {
+          num: doc.data().Number,
+          text: "Hello from FIrebase!!",
+        });
+        console.log(res.status);
+        console.log(doc.data());
+      });
     } catch (error) {
       console.log(error, error.message);
     }

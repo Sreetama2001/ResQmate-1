@@ -214,7 +214,7 @@ const Pricing = () => {
                   <p>Let's join with us.</p>
                 </div>
                 <ButtonPrimary>
-                  <Link href={"/panicalert"}>Get Started</Link>
+                  <Link href={"/registerNumber"}>Get Started</Link>
                 </ButtonPrimary>
               </div>
               <div
