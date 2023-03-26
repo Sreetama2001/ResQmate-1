@@ -7,14 +7,14 @@
 
 
 <div align="center">
-  <a id="top" href="https://res-qmate.vercel.app/" target="blank">
-    <img src="https://res-qmate.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.afe35460.png&w=256&q=75" width="100px" alt="">
+  <a id="top" href="https://resqmate.vercel.app/" target="blank">
+    <img src="https://resqmate.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.afe35460.png&w=256&q=75" width="100px" alt="">
   </a>
 
   <h3 align="center">ResQ-Mate</h3>
 
   <p align="center">
-    <a href="https://res-qmate.vercel.app/" target="blank">Live Demo</a> |
+    <a href="https://resqmate.vercel.app/" target="blank">Live Demo</a> |
     <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Report a Bug</a> |
     <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Suggest a Feature</a>
   </p>
@@ -31,14 +31,15 @@ The project is driven by the belief that by making post-disaster management more
 ## Features of Our Web-App
 1. Crisis Tweets using Bert
 2. FAQ bot to answer all disaster related queries
-3. Community bulletin to release alerts, info about evacuation, camps, food with Live location sharing and relief /facilities 
+3. Community bulletin to release alerts, info about evacuation, camps, food with Live location sharing and relief 
 4. Send alert / important anouncements , critical info through messages
 5. Live chat to solve queries for those person who click on help
 6. Immediate/Urgent on click help through location sharing 
 7. Transperancy with stats (deaths, evaculated , injured) 
-8. Nasa World-wide diaster predictor 
-9. <a href="https://github.com/Sreetama2001/NGO-Verification">NGO Niti-Aayog Certificate verifier</a> 
-10. Donation
+8. Nasa World-wide diaster predictor
+9. Donation 
+10. <a href="https://github.com/Sreetama2001/NGO-Verification">NGO Niti-Aayog Certificate verifier</a> 
+
  
 ## Demo Video Link:
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
