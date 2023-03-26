@@ -44,7 +44,7 @@ The project is driven by the belief that by making post-disaster management more
 # Let's do a walkthrough of our app
 
 
-## Welcome to Astrum
+## Welcome to ResQmate
 ![image](https://user-images.githubusercontent.com/86917304/227755117-a97ab02b-2f76-4212-9fe3-86aea4b2c0a9.png)
 
 ## Personalized Dashboard
@@ -63,7 +63,7 @@ The live chat feature also allows authorities to request information from people
 
 
 ## Previous Disaster Information
-The Astrum project includes a feature that allows users to access information about previous disasters. This feature can be accessed through the web-based interface and is designed to be user-friendly and easy to navigate.
+The ResQmate project includes a feature that allows users to access information about previous disasters. This feature can be accessed through the web-based interface and is designed to be user-friendly and easy to navigate.
 The previous disaster information includes details such as the location, date, and type of disaster This information can be used to gain insights and make data-driven decisions during a disaster event.
 
 ![image](https://user-images.githubusercontent.com/86917304/227755177-3f6acf84-f852-40c4-a09b-81b94ce28fae.png)
@@ -87,7 +87,7 @@ This is bot which is reponsible for providing the genuine preventive do's and do
 
 Users can check for live tweets on recent disasters
 
-![image](https://user-images.githubusercontent.com/86917304/215312235-3019fc2a-1fe9-4d8e-927c-5b4a8c3ace21.png)
+![image](https://user-images.githubusercontent.com/86917304/227755890-dc48745d-e70d-4196-9ae1-9ec18977f960.png)
 
 
 # Features for Needy ones
@@ -95,19 +95,25 @@ Users can check for live tweets on recent disasters
 ## Broadcast room
 A broadcast room is a feature in ASTRUM that provides users with up-to-date information and alerts related to natural disasters and relief efforts. In the broadcast room, users can access information and updates from government agencies, first responders, and other organizations involved in disaster response and relief efforts.
 
-![image](https://www.linkpicture.com/q/WhatsApp-Image-2023-01-29-at-1.35.12-PM.jpeg)
+![image](https://user-images.githubusercontent.com/86917304/227755950-7bd08e91-ce4a-4bc3-aa41-f3ff2d79623a.png)
 
 ## Help form
 
 "Help Form" feature, which allows users to request assistance and provide information about their needs during a disaster event. This feature can be accessed through the mobile application (PWA) or web-based interface and is designed to be user-friendly and easy to navigate.
 
-![image](https://user-images.githubusercontent.com/86917304/201508371-66709b0b-b2ba-4d95-9d33-0ba4f24dc9d6.png)
+![image](https://user-images.githubusercontent.com/86917304/227755935-8937a43c-dacc-4acc-9874-c16532b2927e.png)
 
 ## Emergency Help - (One click help , direct location sharing)
 
 When a person requests emergency help, their location is automatically shared with the authorities, allowing them to quickly and efficiently respond to the incident. The authorities can use this information to dispatch emergency services, such as ambulances or fire trucks, to the affected area.
 
-![image](https://user-images.githubusercontent.com/86917304/201508392-3edda4b3-6fd6-4a4b-9bf9-a6900d06fd66.png)
+![image](https://user-images.githubusercontent.com/86917304/227755944-2b92f390-1df0-4d7e-a60e-30cc6e3816da.png)
+
+## Critical Panic Dispatch
+This is feature which give the incredible power to the authorties to aware and send important information to all user whether they have mobile data access or not we use messaging service for dipatching of the message.
+
+![image](https://user-images.githubusercontent.com/86917304/227756013-d97265ba-4743-402e-91d3-02621a3c1fa6.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
  
