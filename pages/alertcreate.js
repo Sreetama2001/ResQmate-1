@@ -107,7 +107,7 @@ const AlertCreate = () => {
             </div> */}
       <div className={styles.forms} style={{ marginTop: "20vh" }}>
         <form onSubmit={sendData} className={`${styles.form} my-10`}>
-          <div className={styles.title}>Publish Alert / Relief</div>
+          <div className={styles.title}>Create Bulliten</div>
           <div className={styles.subtitle}>
             Let everyone know whats you are doing?
           </div>
