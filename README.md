@@ -32,7 +32,7 @@ The project is driven by the belief that by making post-disaster management more
 ## Features of Our Web-App
 1. Crisis Tweets using Bert
 2. FAQ bot to answer all disaster related queries
-3. Community bulletin to release alerts, info about evacuation, camps, food with Live location sharing and relief /facilities 
+3. Community bulletin to release alerts, info about evacuation, camps, food with Live location sharing and relief
 4. Send alert / important anouncements , critical info through messages
 5. Live chat to solve queries for those person who click on help
 6. Immediate/Urgent on click help through location sharing 
