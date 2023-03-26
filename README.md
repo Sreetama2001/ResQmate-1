@@ -1,39 +1,78 @@
 
+<h1 align="center" size="30px">ResQ-Mate</h1> 
 
 
-<h1 align="center">Hack36 Template Readme</h1>
-<p align="center">
-</p>
 
 <a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
 
 
-## Introduction:
-  Brief description of the project
-  
+<div align="center">
+  <a id="top" href="https://res-qmate.vercel.app/" target="blank">
+    <img src="https://res-qmate.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.afe35460.png&w=256&q=75" width="100px" alt="">
+  </a>
+
+  <h3 align="center">ResQ-Mate</h3>
+
+  <p align="center">
+    <a href="https://res-qmate.vercel.app/" target="blank">Live Demo</a> |
+    <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Report a Bug</a> |
+    <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Suggest a Feature</a>
+  </p>
+</div>
+
+---
+
+## Motivation
+With the rapid change in climate and increasing global warming , quick response to a disaster saves a lot of lives.
+The motivation for the project stems from the realization that current post-disaster management systems are often fragmented and inefficient. In the aftermath of a disaster, the ability to quickly and effectively collect, analyze, and disseminate critical information is essential for the safety and well-being of affected communities. However, the lack of a centralized platform for data management and communication can lead to confusion, duplication of efforts, and wasted resources.
+
+The project is driven by the belief that by making post-disaster management more efficient and effective, we can better serve the needs of affected communities and aid organizations. We hope that by providing this open-source platform, we can help save lives and improve recovery efforts in the aftermath of disasters.
+
+## Features of Our Web-App
+1. Crisis Tweets using Bert
+2. FAQ bot to answer all disaster related queries
+3. Community bulletin to release alerts, info about evacuation, camps, food with Live location sharing and relief /facilities 
+4. Send alert / important anouncements , critical info through messages
+5. Live chat to solve queries for those person who click on help
+6. Immediate/Urgent on click help through location sharing 
+7. Transperancy with stats (deaths, evaculated , injured) 
+8. Nasa World-wide diaster predictor 
+9. <a href="https://github.com/Sreetama2001/NGO-Verification">NGO Niti-Aayog Certificate verifier</a> 
+10. Donation
+ 
 ## Demo Video Link:
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
   
 ## Presentation Link:
-  <a href="https://cutt.ly/Hack36_23_ppt"> PPT link here </a>
+  <a href="https://www.canva.com/design/DAFeO3Mz0SQ/D9nwHg41692qjYDzJ1BZ7Q/edit?utm_content=DAFeO3Mz0SQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
   
   
-## Table of Contents:
-
 ## Technology Stack:
-  1) Flutter
-  2) Google Collab
-  3) JavaFX
-  4) Machine Learning
+  1) Next.js
+  2) Tailwind & CSS
+  3) Tensorflow
+  4) Firebase
+  5) Tensorflow
+  6) Mongodb
+  7) FastAPI
+
+## Services Used   
+  1) Mongo Realm Services
+  2) Twilio
+  3) Firebase
+  4) Google Collab
+  5) python-dockr (for NGO verification)
   
 
 ## Contributors:
 
-Team Name: Code_Pirates
+Team Name - Hackit
 
-* [Lovedeep singh kamal](https://github.com/dev-lovedeep)
-* [Mohit pandey](https://github.com/mojoAlpha)
-* [Ishan Gupta](https://github.com/developer-ishan)
+Leader  - [Pranshu Jain](https://github.com/Pranshu321)
+
+Member 2 - [Mohammad Sami](https://github.com/MSamiDev)
+
+Member 3 - [Sreetama Ghosh Hazra](https://github.com/Sreetama2001)
 
 
 ### Made at:
