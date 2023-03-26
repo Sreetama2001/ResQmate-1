@@ -118,7 +118,7 @@ This is feature which give the incredible power to the authorties to aware and s
 <p align="right">(<a href="#top">back to top</a>)</p>
  
 ## Demo Video Link:
-  <a href="https://www.loom.com/share/64e817347fce4a52b5ab3655616fe227">https://youtu.be/dQw4w9WgXcQ</a>
+  <a href="https://www.loom.com/share/64e817347fce4a52b5ab3655616fe227">Presentation Link</a>
   
 ## Presentation Link:
   <a href="https://www.canva.com/design/DAFeO3Mz0SQ/D9nwHg41692qjYDzJ1BZ7Q/view?utm_content=DAFeO3Mz0SQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
