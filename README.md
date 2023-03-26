@@ -40,12 +40,82 @@ The project is driven by the belief that by making post-disaster management more
 8. Nasa World-wide diaster predictor 
 9. <a href="https://github.com/Sreetama2001/NGO-Verification">NGO Niti-Aayog Certificate verifier</a> 
 10. Donation
+
+# Let's do a walkthrough of our app
+
+
+## Welcome to Astrum
+![image](https://user-images.githubusercontent.com/86917304/227755117-a97ab02b-2f76-4212-9fe3-86aea4b2c0a9.png)
+
+## Personalized Dashboard
+The Personalized Dashboard provides a real-time view of the disaster event, including updated statistics on the number of incidents reported, the number of people affected, and the resources needed for relief efforts. This information is collected and analyzed from the data input by users and NGO's
+
+Admins can also view and respond to help and emergency requests, as well as view and manage donations. The feature also allows users to create and send broadcast messages, which can be used to communicate important information to affected communities and aid organizations.
+
+![image](https://user-images.githubusercontent.com/86917304/227755131-f70a492c-04a1-4d7d-b413-0158b04e7bce.png)
+
+## Live / One-to-One Chat (ResQmate-Chat)
+The live chat feature can be accessed through a mobile application, and is designed to be user-friendly and easy to navigate. It allows people to report incidents such as injuries, damage to property, and the need for evacuation. The authorities can use the chat feature to provide information on evacuation routes, emergency shelter locations, and other important information.
+
+The live chat feature also allows authorities to request information from people on the ground. This can be used to gather information on the extent of damage, the number of people affected, and the resources needed for relief efforts.
+
+![image](https://user-images.githubusercontent.com/86917304/227755163-2595e54b-c672-4b17-a624-c04c632b7283.png)
+
+
+## Previous Disaster Information
+The Astrum project includes a feature that allows users to access information about previous disasters. This feature can be accessed through the web-based interface and is designed to be user-friendly and easy to navigate.
+The previous disaster information includes details such as the location, date, and type of disaster This information can be used to gain insights and make data-driven decisions during a disaster event.
+
+![image](https://user-images.githubusercontent.com/86917304/227755177-3f6acf84-f852-40c4-a09b-81b94ce28fae.png)
+
+## Tracking of Disasters 
+Users can access this feature through the web-based interface, where they can view maps and other data visualizations that display information about the location, what type of disaster. The data is updated in real-time, allowing users to stay informed about the latest developments.
+
+![image](https://user-images.githubusercontent.com/86917304/201508273-9e9969ba-4dcf-449a-8514-f6f613cc843c.png)
+
+## Donation 
+Users can make donations through a variety of payment methods, including credit card, debit card, and online banking. They can also choose to make donations to specific disaster relief efforts or organizations.
+
+![image](https://user-images.githubusercontent.com/86917304/201508333-c7485405-ef3c-4850-a4b2-177f78e5d498.png)
+
+## FAQ/ bot
+This is bot which is reponsible for providing the genuine preventive do's and dont's to citizen.
+
+![image](https://user-images.githubusercontent.com/86917304/227755240-6bcad26f-f37a-4619-a277-e5b745c8b3a6.png)
+
+## Live tweets on Disaster
+
+Users can check for live tweets on recent disasters
+
+![image](https://user-images.githubusercontent.com/86917304/215312235-3019fc2a-1fe9-4d8e-927c-5b4a8c3ace21.png)
+
+
+# Features for Needy ones
+
+## Broadcast room
+A broadcast room is a feature in ASTRUM that provides users with up-to-date information and alerts related to natural disasters and relief efforts. In the broadcast room, users can access information and updates from government agencies, first responders, and other organizations involved in disaster response and relief efforts.
+
+![image](https://www.linkpicture.com/q/WhatsApp-Image-2023-01-29-at-1.35.12-PM.jpeg)
+
+## Help form
+
+"Help Form" feature, which allows users to request assistance and provide information about their needs during a disaster event. This feature can be accessed through the mobile application (PWA) or web-based interface and is designed to be user-friendly and easy to navigate.
+
+![image](https://user-images.githubusercontent.com/86917304/201508371-66709b0b-b2ba-4d95-9d33-0ba4f24dc9d6.png)
+
+## Emergency Help - (One click help , direct location sharing)
+
+When a person requests emergency help, their location is automatically shared with the authorities, allowing them to quickly and efficiently respond to the incident. The authorities can use this information to dispatch emergency services, such as ambulances or fire trucks, to the affected area.
+
+![image](https://user-images.githubusercontent.com/86917304/201508392-3edda4b3-6fd6-4a4b-9bf9-a6900d06fd66.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
  
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
+  <a href="https://www.loom.com/share/64e817347fce4a52b5ab3655616fe227">https://youtu.be/dQw4w9WgXcQ</a>
   
 ## Presentation Link:
-  <a href="https://www.canva.com/design/DAFeO3Mz0SQ/D9nwHg41692qjYDzJ1BZ7Q/edit?utm_content=DAFeO3Mz0SQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
+  <a href="https://www.canva.com/design/DAFeO3Mz0SQ/D9nwHg41692qjYDzJ1BZ7Q/view?utm_content=DAFeO3Mz0SQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
   
   
 ## Technology Stack:
@@ -63,6 +133,8 @@ The project is driven by the belief that by making post-disaster management more
   3) Firebase
   4) Google Collab
   5) python-dockr (for NGO verification)
+  6) Email.js
+  7) Stripe
   
 
 ## Contributors:
