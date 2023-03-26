@@ -34,7 +34,7 @@ const panicalert = () => {
       querySnapshot.forEach(async (doc) => {
         const res = await axios.post("https://twilio-backend.onrender.com", {
           num: doc.data().Number,
-          text: "Hello from FIrebase!!",
+          text: formdata.text,
         });
         console.log(res.status);
         console.log(doc.data());
