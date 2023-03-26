@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 const Astra = () => {
   return (
     <Layout>
-      <div className="mt-28 h-screen w-[98vw] bg-white">
+      <div className="mt-28 h-screen w-[98vw]">
         <div className="py-20 flex justify-center items-center h-full flex-col ">
           <iframe
             allow="microphone;"

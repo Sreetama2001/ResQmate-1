@@ -8,17 +8,17 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Hero = ({
   listUser = [
     {
-      name: "Users",
+      name: "Injured",
       number: "390",
       icon: "/assets/Icon/heroicons_sm-user.svg",
     },
     {
-      name: "Locations",
+      name: "Deaths",
       number: "20",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
-      name: "Server",
+      name: "Evacuated",
       number: "50",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
@@ -36,10 +36,11 @@ const Hero = ({
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black leading-normal">
-            Disaster Management with <strong>ResQ-Mate</strong>.
+              Disaster Management with <strong>ResQ-Mate</strong>.
             </h1>
             <p className="text-black mt-4 mb-6">
-            Disasters don't wait  but with <strong>ResQ-Mate</strong>, you'll always be one step ahead.
+              Disasters don't wait but with <strong>ResQ-Mate</strong>, you'll
+              always be one step ahead.
             </p>
             <div className="flex gap-x-3">
               <ButtonPrimary>Get Started</ButtonPrimary>
@@ -50,14 +51,14 @@ const Hero = ({
           </div>
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
-              <Image
+              {/* <Image
                 src="/assets/fire_house-removebg-preview.png"
                 alt="house on fire"
                 quality={100}
                 width={612}
                 height={383}
                 layout="responsive"
-              />
+              /> */}
             </motion.div>
           </div>
         </motion.div>

@@ -37,8 +37,8 @@ const pastdisaster = () => {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                   {item.year}
                 </span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                  <button className="bg-transparent hover:bg-testred text-testred font-semibold hover:text-white py-2 border boder-2 border-testred px-4 hover:border-transparent rounded">
+                <span className="inline-block bg-red-500 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                  <button className="bg-red-500 text-white font-semibold py-2 px-4 hover:border-transparent rounded">
                     Read More
                   </button>
                 </span>
