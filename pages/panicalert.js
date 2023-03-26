@@ -17,10 +17,6 @@ const panicalert = () => {
     e.preventDefault();
     console.log(formdata);
     try {
-      //   if (formdata.number !== "") {
-      //     let n = `+${formdata.number}`;
-      //     setformdata({ ...formdata, number: n });
-      //   }
       const res = await axios.post("http://localhost:5000", {
         num: formdata.number,
         text: formdata.text,
@@ -31,11 +27,12 @@ const panicalert = () => {
       console.log(error, error.message);
     }
   }
-  async function checksendData() {
+  async function checksendData(e) {
+    e.preventDefault();
     try {
       const querySnapshot = await getDocs(collection(db, "messageNumbers"));
       querySnapshot.forEach(async (doc) => {
-        const res = await axios.post("http://localhost:5000", {
+        const res = await axios.post("https://twilio-backend.onrender.com", {
           num: doc.data().Number,
           text: "Hello from FIrebase!!",
         });
@@ -48,45 +45,9 @@ const panicalert = () => {
   }
 
   return (
-    <Layout>
+    <>
       <div className="flex justify-center">
-        <form className="w-full max-w-sm mt-40" onSubmit={sendData}>
-          <div className="md:flex md:items-center mb-6">
-            <div className="md:w-1/3">
-              <label
-                className="block text-gray-400 font-bold md:text-right mb-1 md:mb-0 pr-4"
-                for="inline-full-name"
-              >
-                Phone Number
-              </label>
-            </div>
-            <div className="md:w-2/3">
-              <PhoneInput
-                searchStyle={{
-                  color: "black",
-                  padding: "8px 12px",
-                  fontWeight: "bold",
-                }}
-                dropdownStyle={{ color: "black" }}
-                value={phone}
-                country={"eg"}
-                enableSearch={true}
-                countryCodeEditable={false}
-                onChange={(phone) =>
-                  setformdata({ ...formdata, number: phone })
-                }
-              />
-              {/* <input
-                className="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
-                id="inline-full-name"
-                onChange={(e) =>
-                  setformdata({ ...formdata, number: e.target.value })
-                }
-                type="text"
-                placeholder="Type Your Number"
-              /> */}
-            </div>
-          </div>
+        <form className="w-full max-w-sm mt-40" onSubmit={checksendData}>
           <div className="md:flex md:items-center mb-6">
             <div className="md:w-1/3">
               <label
@@ -121,7 +82,7 @@ const panicalert = () => {
           </div>
         </form>
       </div>
-    </Layout>
+    </>
   );
 };
 
