@@ -42,7 +42,7 @@ The project is driven by the belief that by making post-disaster management more
 10. Donation
  
 ## Demo Video Link:
-  <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
+  <a href=""></a>
   
 ## Presentation Link:
   <a href="https://www.canva.com/design/DAFeO3Mz0SQ/D9nwHg41692qjYDzJ1BZ7Q/edit?utm_content=DAFeO3Mz0SQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"> PPT link here </a>
