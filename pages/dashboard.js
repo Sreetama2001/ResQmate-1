@@ -29,14 +29,14 @@ const dashboard = () => {
           email: email,
           ngo: auth.currentUser?.displayName,
           user: user,
-          link: `https://astra-chat.up.railway.app/chat.html?name=${user}&room=${uniq}`,
+          link: `https://web-production-07e8.up.railway.app/chat.html?name=${user}&room=${uniq}`,
         },
         "gP8sKnDLte9gp24k2"
       )
       .then(function (response) {
         console.log("SUCCESS!", response.status, response.text);
         window.open(
-          `https://astra-chat.up.railway.app/chat.html?name=${auth.currentUser?.displayName}&room=${uniq}`,
+          `https://web-production-07e8.up.railway.app/chat.html?name=${auth.currentUser?.displayName}&room=${uniq}`,
           "_blank"
         );
         setemail("");
