@@ -70,10 +70,16 @@ const Hero = ({
               always be one step ahead.
             </p>
             <div className="flex gap-x-3">
+              <a href="/auth/signin">
+
               <ButtonPrimary>Get Started</ButtonPrimary>
+              </a>
               <div onClick={() => setVisible(true)}>
                 <ButtonPrimary>Urgent Help</ButtonPrimary>
               </div>
+              <a href="https://resqmate-nasa-maps.vercel.app/nasamap">
+                <ButtonPrimary>Nasa Pridiction</ButtonPrimary>
+              </a>
             </div>
           </div>
           <div className="flex w-full">
