@@ -3,18 +3,19 @@
 
 
 
-<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px> </a>
+<a href="https://hack36.com"> <img src="https://i.postimg.cc/RFFWF4vg/built-at-hack.jpg" height=24px style="padding-left=10px"> </a>
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://resqmate.vercel.app/)
 
 
 <div align="center">
-  <a id="top" href="https://res-qmate.vercel.app/" target="blank">
-    <img src="https://res-qmate.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.afe35460.png&w=256&q=75" width="100px" alt="">
+  <a id="top" href="https://resqmate.vercel.app/" target="blank">
+    <img src="https://user-images.githubusercontent.com/86917304/227752911-f63d943f-2985-4abb-982c-f48d63c81911.png" width="100px" alt="">
   </a>
 
   <h3 align="center">ResQ-Mate</h3>
 
   <p align="center">
-    <a href="https://res-qmate.vercel.app/" target="blank">Live Demo</a> |
+    <a href="https://resqmate.vercel.app/" target="blank">Live Demo</a> |
     <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Report a Bug</a> |
     <a href="https://github.com/Pranshu321/ResQmate/issues" target="blank">Suggest a Feature</a>
   </p>
