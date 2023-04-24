@@ -2,52 +2,11 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 // import react slick
 import Slider from "react-slick";
-import Image from "next/image";
-import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 import TweetEmbed from "react-tweet-embed";
 
-const Testimoni = ({
-  listTestimoni = [
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-    {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
-  ],
-}) => {
+const Testimoni = () => {
   const settings = {
     dots: true,
     customPaging: function (i) {
