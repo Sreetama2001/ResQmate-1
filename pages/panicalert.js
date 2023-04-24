@@ -4,6 +4,7 @@ import Layout from "../components/Layout/Layout";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/bootstrap.css";
 import { db } from "../firebase/firebase";
+import toast, { Toaster } from "react-hot-toast";
 import { collection, doc, getDocs } from "firebase/firestore";
 
 const panicalert = () => {
@@ -34,9 +35,12 @@ const panicalert = () => {
       querySnapshot.forEach(async (doc) => {
         const res = await axios.post("https://twilio-backend.onrender.com", {
           num: doc.data().Number,
-          text: "Hello from FIrebase!!",
+          text: formdata.text,
         });
         console.log(res.status);
+        if (res.status === 200) {
+          toast.success("Critical Info Broadcasted");
+        }
         console.log(doc.data());
       });
     } catch (error) {
@@ -46,6 +50,31 @@ const panicalert = () => {
 
   return (
     <>
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+        gutter={8}
+        containerClassName=""
+        containerStyle={{}}
+        toastOptions={{
+          // Define default options
+          className: "",
+          duration: 3000,
+          style: {
+            background: "#363636",
+            color: "#fff",
+          },
+
+          // Default options for specific types
+          success: {
+            duration: 3000,
+            theme: {
+              primary: "green",
+              secondary: "black",
+            },
+          },
+        }}
+      />
       <div className="flex justify-center">
         <form className="w-full max-w-sm mt-40" onSubmit={checksendData}>
           <div className="md:flex md:items-center mb-6">
